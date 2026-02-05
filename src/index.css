@@ -1,0 +1,162 @@
+/* ============ Global ============ */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ============ Navbar ============ */
+.navbar {
+  background: linear-gradient(90deg, #4b6cb7, #182848);
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #ffd700 !important;
+}
+
+/* ============ Hero Section ============ */
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 10px 0 30px;
+}
+
+/* ============ Projects Cards ============ */
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-text {
+  color: #555;
+}
+
+/* ============ Buttons ============ */
+button, .btn {
+  border-radius: 50px;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+button:hover, .btn:hover {
+  transform: scale(1.05);
+}
+
+/* ============ Skills Progress Bars ============ */
+.progress {
+  height: 25px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* ============ Forms ============ */
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+form .form-control {
+  border-radius: 10px;
+}
+
+.alert {
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+/* ============ Footer ============ */
+footer {
+  background-color: #182848;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #ffd700;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+/* ============ Responsive ============ */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}
+.btn-animated {
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.btn-animated:hover {
+  transform: scale(1.05);
+}
+body {
+  background-color: #f8f9fa;
+}
